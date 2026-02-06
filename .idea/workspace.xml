@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1bca90-48bd-47bd-8aea-92ce761ecbaf" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/ARTICOLE_IMPLEMENTARE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/articole/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/articole/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/evenimente/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/social.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/articles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SiteHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SiteHeader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/quant/WebstormProjects/smartsteps" value="35z8QXEpPLdd2HMMuXfUe1LOQLz" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,13 +42,10 @@
     &quot;assignee&quot;: &quot;bamboo6043&quot;
   }
 }</component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="01aec715-2ac5-4748-9e88-adc64923ed31" />
-  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/bamboo6043/smartsteps.git&quot;,
-    &quot;accountId&quot;: &quot;01aec715-2ac5-4748-9e88-adc64923ed31&quot;
+    &quot;accountId&quot;: &quot;8881ead0-9c25-4639-adc3-b0e4352abb49&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -59,7 +68,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
     "last_opened_file_path": "/home/wiskee/Projects/smartsteps/public",
@@ -67,10 +78,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
+    "nodejs_interpreter_path": "C:/Users/quant/AppData/Roaming/JetBrains/WebStorm2025.3/node/versions/24.13.0/node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "ts.external.directory.path": "/home/wiskee/Projects/smartsteps/node_modules/typescript/lib",
+    "ts.external.directory.path": "C:\\Users\\quant\\WebstormProjects\\smartsteps\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -100,7 +111,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
       </set>
     </attachedChunks>
   </component>
@@ -113,6 +124,9 @@
       <updated>1764101523520</updated>
       <workItem from="1764101524504" duration="22533000" />
       <workItem from="1764429053223" duration="1918000" />
+      <workItem from="1770392535441" duration="1491000" />
+      <workItem from="1770394103665" duration="1968000" />
+      <workItem from="1770398133759" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -142,5 +156,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
