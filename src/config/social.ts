@@ -3,7 +3,7 @@
 
 export const SOCIAL_LINKS = {
   facebook: "https://www.facebook.com/YOUR_PAGE_HERE", // Replace with your Facebook page
-  instagram: "https://www.instagram.com/YOUR_PROFILE_HERE/", // Replace with your Instagram profile
+  instagram: "https://www.instagram.com/sm4rt_st3ps/", // Replace with your Instagram profile
   linkedin: "https://www.linkedin.com/in/YOUR_PROFILE_HERE/", // Optional: Add LinkedIn if needed
 };
 

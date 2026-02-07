@@ -67,6 +67,23 @@ export default async function ArticlePage({
 
       <div className="article-body">
         {art.content.split("\n\n").map((paragraph, idx) => {
+          // Remove leading/trailing quotes and whitespace for comparison
+          const normalizedParagraph = paragraph
+            .replace(/["“”'\s]+/g, "")
+            .toLowerCase();
+          const normalizedTitle = art.title
+            .replace(/["“”'\s]+/g, "")
+            .toLowerCase();
+
+          // Skip a leading paragraph if it is the same as the title (or contains it)
+          if (
+            idx === 0 &&
+            (normalizedParagraph === normalizedTitle ||
+              normalizedParagraph.startsWith(normalizedTitle))
+          ) {
+            return null;
+          }
+
           const isHeading = /^(Cum|Ce|In |Dar|Daca|De|Pentru|Sprijin|Un |Indiciu|Iesirea|Problema)/.test(
             paragraph
           );
