@@ -6,9 +6,7 @@ export default function DespreMinePage() {
 
             <section>
                 <p>
-                    Sunt Beatrice, consilier în dezvoltare personală, iar misiunea mea este
-                    să te ajut să îți descoperi potențialul și să depășești obstacolele
-                    care te împiedică să trăiești o viață împlinită, atât profesional, cât și personal.
+                    Sunt Beatrice, psiholog, trainer si consilier in dezvoltare personala, iar misiunea mea este sa te sprijin sa iti descoperi potentialul si sa depasesti obstacolele care te tin pe loc, pentru a construi o viata implinita, atat profesional, cat si personal.
                 </p>
                 <p>
                     Cu peste 20 de ani de experiență în dezvoltarea oamenilor în mediul

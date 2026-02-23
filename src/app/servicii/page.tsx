@@ -4,7 +4,13 @@ export default function ServiciiPage() {
         <article>
             <h1>Servicii</h1>
 
-            <section>
+            <div className="servicii-tabs referinte-filters" role="tablist" aria-label="Servicii">
+                <a href="#tine" className="btn-filter" role="tab">Pentru tine</a>
+                <a href="#companii" className="btn-filter" role="tab">Pentru companii</a>
+                <a href="#metode" className="btn-filter" role="tab">Metodele mele</a>
+            </div>
+
+            <section id="tine">
                 <h2>Cum te pot îndruma?</h2>
                 <p>
                     Dezvoltarea personală sună deseori ca un deziderat, un plan al altora
@@ -70,7 +76,7 @@ export default function ServiciiPage() {
             </section>
 
             <section>
-                <h2>Metodele mele</h2>
+                <h2 id="metode">Metodele mele</h2>
 
                 <h3>Mentoring</h3>
                 <p>
@@ -120,7 +126,7 @@ export default function ServiciiPage() {
             </section>
 
             <section>
-                <h2>Pentru companii</h2>
+                <h2 id="companii">Pentru companii</h2>
                 <p>
                     Metodele mele se adresează în special IMM-urilor care nu au un
                     departament dedicat de Resurse Umane sau o echipă de Learning &amp; Development.

@@ -20,6 +20,12 @@ export const metadata: Metadata = {
     title: "Smart Steps – Dezvoltare personala & profesionala",
     description:
         "Consiliere in dezvoltare personala si profesionala pentru lideri, manageri si profesionisti.",
+    icons: {
+        icon: [
+            { url: "/logo.png", type: "image/png" },
+        ],
+        apple: "/logo.png",
+    },
 };
 
 export default function RootLayout({

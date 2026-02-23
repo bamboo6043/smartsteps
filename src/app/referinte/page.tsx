@@ -4,7 +4,12 @@ export default function ReferintePage() {
         <article>
             <h1>Referințe &amp; Testimoniale</h1>
 
-            <section>
+            <div className="referinte-filters" role="tablist" aria-label="Filtre referinte">
+                <a href="#individual" className="btn-filter" role="tab">De la cei cu care am lucrat individual</a>
+                <a href="#companii" className="btn-filter" role="tab">Proiecte din companii</a>
+            </div>
+
+            <section id="individual" data-ref-type="individual">
                 <h2>De la cei cu care am lucrat individual</h2>
                 <p>
                     Fie că au fost sesiuni de mentorat sau sesiuni de dezvoltare personală,
@@ -21,7 +26,7 @@ export default function ReferintePage() {
                 </p>
             </section>
 
-            <section>
+            <section id="testimoniale">
                 <h2>Testimoniale</h2>
 
                 <blockquote>
@@ -94,7 +99,7 @@ export default function ReferintePage() {
                 </blockquote>
             </section>
 
-            <section>
+            <section id="companii" data-ref-type="companii">
                 <h2>Proiecte în companii</h2>
 
                 <p>

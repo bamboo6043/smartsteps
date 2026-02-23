@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1bca90-48bd-47bd-8aea-92ce761ecbaf" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/articole/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/articole/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/articole/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/articole/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/despre-mine/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/despre-mine/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/referinte/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/referinte/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/servicii/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/servicii/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/termeni-si-conditii/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/termeni-si-conditii/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SiteHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SiteHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/social.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/social.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -87,6 +94,7 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\quant\WebstormProjects\smartsteps\public" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -153,7 +161,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

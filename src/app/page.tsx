@@ -16,9 +16,7 @@ export default function HomePage() {
                         Rezultate profunde.
                     </h1>
                     <p className="hero__subtitle">
-                        Sunt Beatrice, consilier in dezvoltare personala si psiholog
-                        clinician. Te ajut sa iti clarifici directia, sa iti regasesti
-                        increderea si sa faci schimbari sustenabile in ritmul tau.
+                        Sunt Beatrice, consilier in dezvoltare personala si psiholog clinician, cu peste 20 de ani experienta in dezvoltarea oamenilor, echipelor si culturilor organizationale. Te ajut sa iti clarifici directia, sa iti regasesti increderea si sa construiesti schimbari sustenabile – pentru tine sau pentru organizatia ta.
                     </p>
                     <div className="hero__actions">
                         <Link href="/contact" className="btn-primary">
@@ -54,21 +52,18 @@ export default function HomePage() {
                 <article className="home-card">
                     <h2>Cui ma adresez</h2>
                     <p>
-                        Lucrez cu manageri, lideri, specialisti si antreprenori care simt
-                        ca, desi au ajuns departe, ceva nu mai functioneaza cum si-ar dori.
+                        Lucrez cu persoane care isi doresc claritate, echilibru si dezvoltare – indiferent daca sunt manageri, specialisti, antreprenori sau se afla intr-o etapa de tranzitie personala ori profesionala.
                     </p>
                     <ul>
-                        <li>
-                            Ai preluat un rol nou si iti doresti sa fii pregatit pentru el.
-                        </li>
-                        <li>
-                            Conduci o echipa si vrei sa gasesti un stil de leadership mai
-                            autentic si mai eficient.
-                        </li>
-                        <li>
-                            Te simti epuizat, demotivat sau blocat intr-o decizie de cariera.
-                        </li>
+                        <li>Ai preluat un rol nou si vrei sa fii pregatit pentru el.</li>
+                        <li>Conduci o echipa si iti doresti un stil de leadership mai autentic si mai eficient.</li>
+                        <li>Te simti epuizat, demotivat sau blocat intr-o decizie importanta.</li>
+                        <li>Esti adolescent sau parinte si cauti sprijin pentru echilibru si directionare.</li>
+                        <li>Simti ca poti mai mult si vrei sa iti clarifici urmatorul pas.</li>
                     </ul>
+                    <p className="home-card__cta">
+                        <Link href="/despre-mine" className="inline-link">Vezi despre mine →</Link>
+                    </p>
                 </article>
 
                 <article className="home-card">
@@ -99,18 +94,14 @@ export default function HomePage() {
                 <article className="home-card home-card--accent">
                     <h2>Ce poti obtine</h2>
                     <ul>
-                        <li>Mai multa claritate si incredere in deciziile tale.</li>
-                        <li>
-                            Abilitati concrete de leadership, comunicare si prioritizare.
-                        </li>
-                        <li>
-                            O relatie mai buna cu timpul tau, cu munca si cu oamenii din jur.
-                        </li>
+                        <li>Claritate si incredere in deciziile tale.</li>
+                        <li>Abilitati concrete de leadership, comunicare si prioritizare.</li>
+                        <li>Echilibru emotional si energie sustenabila.</li>
+                        <li>Relatii profesionale mai sanatoase si o echipa mai implicata.</li>
+                        <li>O directie coerenta, aliniata cu valorile tale.</li>
                     </ul>
                     <p className="home-card__cta">
-                        <Link href="/referinte" className="inline-link">
-                            Citeste referinte si exemple de proiecte →
-                        </Link>
+                        <Link href="/referinte" className="inline-link">Citeste referinte si exemple de proiecte →</Link>
                     </p>
                 </article>
             </section>

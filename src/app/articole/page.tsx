@@ -8,9 +8,6 @@ export const metadata = {
 };
 
 export default function ArticlesPage() {
-  // Group articles by category
-  const categories = Array.from(new Set(articles.map((a) => a.category)));
-
   return (
     <div className="articles-page">
       <div className="page-header">
@@ -20,47 +17,35 @@ export default function ArticlesPage() {
         </p>
       </div>
 
-      {categories.map((category) => {
-        const categoryArticles = articles.filter((a) => a.category === category);
-        return (
-          <section key={category} className="articles-category">
-            <h2 className="category-title">{category}</h2>
-            <div className="articles-grid">
-              {categoryArticles.map((article) => (
-                <article key={article.id} className="article-card">
-                  {article.imageUrl && (
-                    <div className="article-image">
-                      <img src={article.imageUrl} alt={article.title} />
-                    </div>
-                  )}
-                  <div className="article-content">
-                    <Link href={`/articole/${article.slug}`}>
-                      <h3>{article.title}</h3>
-                    </Link>
-                    <p className="article-excerpt">{article.excerpt}</p>
-                    <div className="article-meta">
-                      <span className="article-date">
-                        {new Date(article.date).toLocaleDateString("ro-RO", {
-                          year: "numeric",
-                          month: "long",
-                          day: "numeric",
-                        })}
-                      </span>
-                    </div>
-                    <Link
-                      href={`/articole/${article.slug}`}
-                      className="article-link"
-                    >
-                      Citiți articolul →
-                    </Link>
-                  </div>
-                </article>
-              ))}
+      <section className="articles-grid">
+        {articles.map((article) => (
+          <article key={article.id} className="article-card">
+            {article.imageUrl && (
+              <div className="article-image">
+                <img src={article.imageUrl} alt={article.title} />
+              </div>
+            )}
+            <div className="article-content">
+              <Link href={`/articole/${article.slug}`}>
+                <h3>{article.title}</h3>
+              </Link>
+              <p className="article-excerpt">{article.excerpt}</p>
+              <div className="article-meta">
+                <span className="article-date">
+                  {new Date(article.date).toLocaleDateString("ro-RO", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </span>
+              </div>
+              <Link href={`/articole/${article.slug}`} className="article-link">
+                Citiți articolul →
+              </Link>
             </div>
-          </section>
-        );
-      })}
+          </article>
+        ))}
+      </section>
     </div>
   );
 }
-

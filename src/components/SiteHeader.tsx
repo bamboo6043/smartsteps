@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { SOCIAL_LINKS } from "@/config/social";
 
 export default function SiteHeader() {
@@ -14,8 +15,14 @@ export default function SiteHeader() {
         <header className="site-header">
             <div className="container site-header__inner">
                 <div className="logo">
-                    <Link href="/" onClick={close}>
-                        Smart Steps
+                    <Link href="/" onClick={close} aria-label="Inapoi la pagina principala">
+                        <Image
+                            src="/logo.png"
+                            alt="Smart Steps"
+                            width={64}
+                            height={64}
+                            className="site-logo"
+                        />
                     </Link>
                 </div>
 
