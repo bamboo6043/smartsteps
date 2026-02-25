@@ -8,6 +8,7 @@ export interface Article {
   date: string;
   relatedArticles: string[]; // IDs of related articles
   imageUrl?: string;
+  thumbnailUrl?: string;
   bibliography?: string[];
 }
 
@@ -17,11 +18,12 @@ export const articles: Article[] = [
     slug: "salvatorului-cand-grija-pentru-ceilalti-te-indeparteaza-de-tine",
     title: "Salvatorul – cand grija pentru ceilalti te indeparteaza de tine",
     excerpt:
-      "Salvatorul este cel care ajuta si se implica, dar risca sa se piarda in ajutorul oferit celorlalti. Descoperiti cum recunosteti acest rol si cum iesiti din el.",
+      "Salvatorul este cel care ajuta si se implica, dar risca sa se parda in ajutorul oferit celorlalti. Descoperiti cum recunosteti acest rol si cum iesiti din el.",
     category: "Relatii",
     date: "2024-01-15",
     relatedArticles: ["triunghiul-dramatic", "imagine-de-sine"],
     imageUrl: "/images/articles/salvatorului.jpg",
+    thumbnailUrl: "/salvatorul.jpg",
     bibliography: [
       "Karpman, S. (1968). Fairy tales and script drama analysis. Transactional Analysis Bulletin.",
       "Choy, A. (1990). The Winner's Triangle. Transactional Analysis Journal.",
@@ -78,6 +80,7 @@ A ajuta este o resursa valoroasa. A te pierde pe tine in ajutorul oferit celorla
     date: "2024-01-20",
     relatedArticles: ["salvatorului", "imagine-de-sine"],
     imageUrl: "/images/articles/triunghiul-dramatic.jpg",
+    thumbnailUrl: "/triunghiul-dramatic.jpg",
     bibliography: [
       "Karpman, S. (1968). Fairy tales and script drama analysis. Transactional Analysis Bulletin.",
       "Choy, A. (1990). The Winner's Triangle. Transactional Analysis Journal.",
@@ -106,10 +109,10 @@ Observam ca rolurile se pot schimba rapid, iar niciunul dintre parteneri nu este
 Cum se manifesta Triunghiul dramatic in viata reala
 
 In cuplu
-Un partener se simte neinteles si neajutorat (Victima). Celalalt intervine constant, ofera solutii, preia responsabilitati (Salvatorul). In timp, oboseala se transforma in reprosuri, critica sau distantare (Persecutorul). Relatia oscileaza intre dependenta, frustrare si conflict, fara a ajunge la o rezolvare reala.
+Un partener se simte neinteles si neajutorat (Victima). Celalalt intervine constant, ofera solutii, preia responsabilitati (Salvatorul). In timp, oboseala se transforma in reprosuri, critica sau distantare (Persecutor). Relatia oscileaza intre dependenta, frustrare si conflict, fara a ajunge la o rezolvare reala.
 
 In familie
-Un membru este perceput ca "problema" sau "cel slab" (Victima). Altul devine cel care tine totul in picioare si preia responsabilitatea pentru toti (Salvatorul). Tensiunea acumulata erupe sub forma de certuri, ironii sau retragere emotionala (Persecutorul). Fiecare reactioneaza din rol, nu din responsabilitate personala.
+Un membru este perceput ca "problema" sau "cel slab" (Victima). Altul devine cel care tine totul in picioare si preia responsabilitatea pentru toti (Salvatorul). Tensiunea acumulata erupe sub forma de certuri, ironii sau retragere emotionala (Persecutor). Fiecare reactioneaza din rol, nu din responsabilitate personala.
 
 La locul de munca
 Triunghiul dramatic este frecvent in echipele aflate sub presiune:
@@ -166,6 +169,7 @@ Triunghiul dramatic nu este o condamnare. Este un tipar invatat. Iar ceea ce a f
     date: "2024-02-01",
     relatedArticles: ["imagine-de-sine-copil", "psihoterapia-ca-spatiu"],
     imageUrl: "/images/articles/imagine-de-sine.jpg",
+    thumbnailUrl: "/imaginea-de-sine.jpg",
     bibliography: [
       "Rosenberg, M. (1965). Society and the adolescent self-image. Princeton University Press.",
       "Orth, U., Robins, R. W. (2014). The development of self-esteem. Current Directions in Psychological Science.",
@@ -187,7 +191,7 @@ La varsta adulta, imaginea de sine continua sa fie modelata de:
 
 Problema apare atunci cand valoarea personala ajunge sa depinda aproape exclusiv de exterior.
 
-Cum arata o imagine de sine fragila in viata de zi cu zi
+Cum arata o imagine de sine fragila in viata de zi cuzi
 
 In relatia cu tine
 Persoana cu o imagine de sine fragila se autoevalueaza constant. Se critica, se compara, se indoieste. Reusitele sunt minimalizate, iar greselile devin dovezi ca "nu este suficient". Exista un dialog interior dur, uneori invizibil pentru ceilalti, dar extrem de obositor pentru cel care il traieste.
@@ -236,6 +240,7 @@ Imaginea de sine nu este un dat. Este o constructie. Si orice constructie poate 
     date: "2024-02-05",
     relatedArticles: ["imagine-de-sine", "psihoterapia-copilului"],
     imageUrl: "/images/articles/imagine-de-sine-copil.jpg",
+    thumbnailUrl: "/imaginea-de-sine-copii.jpg",
     bibliography: [
       "Harter, S. (2012). The construction of the self. Guilford Press.",
       "Orth, U., Robins, R. W. (2014). The development of self-esteem. Current Directions in Psychological Science.",
@@ -347,6 +352,7 @@ Copiii devin, in timp, felul in care au fost vazuti. Privirea parintelui devine 
     date: "2024-02-10",
     relatedArticles: ["alegerea-psiholog", "psihoterapia-copilului"],
     imageUrl: "/images/articles/psihoterapia.jpg",
+    thumbnailUrl: "/linistea.jpg",
     bibliography: [],
     content: `In cultura noastra, mersul la psiholog vine adesea cu reticenta. "Nu sunt nebun", "altii au probleme mai mari", "ma descurc eu", "trece de la sine". Multi dintre noi am crescut cu ideea ca trebuie sa fii puternic, sa duci, sa rezist. Sa nu te plangi. Sa rezolvi singur. Asa ca ajungem sa cerem ajutor tarziu sau deloc.
 
@@ -411,6 +417,7 @@ Psihoterapia nu este despre a cauta probleme acolo unde nu sunt. Este despre a-t
     date: "2024-02-15",
     relatedArticles: ["imagine-de-sine-copil", "alegerea-psiholog"],
     imageUrl: "/images/articles/psihoterapia-copilului.jpg",
+    thumbnailUrl: "/copilul-la-terapeut.jpg",
     bibliography: [],
     content: `Pentru multi parinti, ideea de a merge cu copilul la psihoterapie vine cu multa ambivalenta. Pe de o parte, observa ca ceva nu este in regula. Pe de alta parte, apare speranta ca "va trece", ca este doar o etapa, ca poate exagereaza. In cultura noastra, ajutorul psihologic pentru copii este adesea asociat cu situatii extreme, iar gandul ca propriul copil ar avea nevoie de sprijin poate trezi vinovatie, teama sau confuzie.
 
@@ -461,6 +468,7 @@ Copiii nu au intotdeauna cuvintele potrivite pentru a cere ajutor. Dar au compor
     date: "2024-02-20",
     relatedArticles: ["psihoterapia-ca-spatiu", "psihoterapia-copilului"],
     imageUrl: "/images/articles/alegerea-psiholog.jpg",
+    thumbnailUrl: "/cum-alegi-psihoterapeut.jpg",
     bibliography: [],
     content: `Pentru multi oameni, decizia de a merge la psihoterapie vine la pachet cu o alta intrebare dificila: "Cum aleg?". In Romania, piata este plina de oferte, titluri si promisiuni. Psihologi, psihoterapeuti, coach, consilieri, mentori. Unii foarte vizibili online, altii recomandati din vorba in vorba. Confuzia este fireasca.
 

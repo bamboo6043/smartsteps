@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { articles } from "@/data/articles";
+import ClientImage from "@/components/ClientImage";
 
 export const metadata = {
   title: "Articole – Smart Steps",
@@ -8,6 +9,8 @@ export const metadata = {
 };
 
 export default function ArticlesPage() {
+  const fallback = "/logo.png";
+
   return (
     <div className="articles-page">
       <div className="page-header">
@@ -20,11 +23,12 @@ export default function ArticlesPage() {
       <section className="articles-grid">
         {articles.map((article) => (
           <article key={article.id} className="article-card">
-            {article.imageUrl && (
-              <div className="article-image">
-                <img src={article.imageUrl} alt={article.title} />
-              </div>
-            )}
+            <div className="article-image">
+              <ClientImage
+                src={article.thumbnailUrl ?? article.imageUrl ?? fallback}
+                alt={article.title}
+              />
+            </div>
             <div className="article-content">
               <Link href={`/articole/${article.slug}`}>
                 <h3>{article.title}</h3>

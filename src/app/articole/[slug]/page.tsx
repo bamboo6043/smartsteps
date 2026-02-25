@@ -2,6 +2,7 @@ import Link from "next/link";
 import { articles, Article } from "@/data/articles";
 import { notFound } from "next/navigation";
 import React from "react";
+import ClientImage from "@/components/ClientImage";
 
 export const metadata = {
   title: "Articol – Smart Steps",
@@ -39,6 +40,7 @@ export default async function ArticlePage({
   // assert defined for TypeScript
   const art = article as Article;
   const relatedArticles = getRelatedArticles(art.relatedArticles || []);
+  const fallback = "/logo.png";
 
   return (
     <article className="article-single">
@@ -125,14 +127,20 @@ export default async function ArticlePage({
           <h3>Articole conexe</h3>
           <div className="related-grid">
             {relatedArticles.map((related) => (
-              <Link
-                key={related.id}
-                href={`/articole/${related.slug}`}
-                className="related-card"
-              >
-                <h4>{related.title}</h4>
-                <p>{related.excerpt}</p>
-              </Link>
+              <article key={related.id} className="related-card">
+                <div className="related-image">
+                  <ClientImage
+                    src={related.thumbnailUrl ?? related.imageUrl ?? fallback}
+                    alt={related.title}
+                  />
+                </div>
+                <div className="related-content">
+                  <Link href={`/articole/${related.slug}`}>
+                    <h3>{related.title}</h3>
+                  </Link>
+                  <p className="article-excerpt">{related.excerpt}</p>
+                </div>
+              </article>
             ))}
           </div>
         </section>
