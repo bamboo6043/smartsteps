@@ -83,6 +83,20 @@ body {
     text-decoration: none;
 }
 
+.site-logo {
+    display: block;
+    width: 42px !important;
+    height: 42px !important;
+    object-fit: contain;
+}
+
+@media (max-width: 720px) {
+    .site-logo {
+        width: 36px !important;
+        height: 36px !important;
+    }
+}
+
 /* Navigatie desktop */
 
 .main-nav {
@@ -190,27 +204,32 @@ body {
 /* Burger button */
 
 .nav-toggle {
-    display: none; /* hidden on desktop */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
     border: none;
     background: transparent;
-    padding: 0.25rem;
+    border-radius: 8px;
+    padding: 0;
     cursor: pointer;
+    transition: background 0.15s ease;
+    flex-shrink: 0;
+}
+
+.nav-toggle:hover {
+    background: rgba(0, 0, 0, 0.06);
 }
 
 .nav-toggle__icon {
     display: block;
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 1.25rem;  /* 20px */
+    height: 1.25rem; /* 20px */
     position: relative;
 }
 
-.nav-toggle__icon::before,
-.nav-toggle__icon::after,
-.nav-toggle__icon::marker {
-    /* this pseudo-marker trick might be weird, so instead use 2 bars + center bar via box-shadow */
-}
-
-/* Simple burger with 3 bars */
+/* 3 evenly spaced bars — centers at 5px, 10px, 15px in a 20px box */
 .nav-toggle__icon::before,
 .nav-toggle__icon::after {
     content: "";
@@ -220,28 +239,27 @@ body {
     height: 2px;
     border-radius: 999px;
     background: #111827;
-    transition: transform 0.15s ease, opacity 0.15s ease, top 0.15s ease,
-    bottom 0.15s ease;
+    transition: transform 0.2s ease, top 0.2s ease, bottom 0.2s ease, box-shadow 0.2s ease;
 }
 
 .nav-toggle__icon::before {
-    top: 0.4rem;
-    box-shadow: 0 6px 0 #111827; /* middle bar */
+    top: 0.25rem;                      /* 4px → bar 1 center = 5px  */
+    box-shadow: 0 0.3125rem 0 #111827; /* 5px offset → bar 2 center = 4+5+1 = 10px ✓ */
 }
 
 .nav-toggle__icon::after {
-    bottom: 0.4rem;
+    bottom: 0.25rem;                   /* 4px → bar 3 center = 15px */
 }
 
-/* X state */
+/* X state — both bars pivot through the icon center (10px) */
 .nav-toggle--open .nav-toggle__icon::before {
-    top: 0.8rem;
-    box-shadow: none;
+    top: 0.5625rem;                             /* 9px → center = 10px */
+    box-shadow: 0 0.3125rem 0 transparent;      /* fade out without rotating into a third line */
     transform: rotate(45deg);
 }
 
 .nav-toggle--open .nav-toggle__icon::after {
-    bottom: 0.8rem;
+    bottom: 0.5625rem; /* 9px → center = 10px */
     transform: rotate(-45deg);
 }
 
@@ -270,12 +288,6 @@ body {
         left: 0.5rem;
     }
 
-    .nav-toggle {
-        display: inline-flex !important;
-        position: absolute;
-        right: 0.5rem;
-    }
-
     .social-links-desktop {
         display: none !important;
     }
@@ -291,15 +303,17 @@ body {
         gap: 1rem;
     }
 
-    /* Show burger button on mobile */
     .nav-toggle {
         display: inline-flex !important;
+        position: absolute;
+        right: 0.5rem;
         align-items: center;
         justify-content: center;
-        margin-left: auto;
+        width: 2.25rem;
+        height: 2.25rem;
+        padding: 0;
         background: transparent;
         border-radius: 8px;
-        padding: 0.4rem;
         border: none;
         cursor: pointer;
         flex-shrink: 0;
@@ -746,7 +760,7 @@ a:hover {
 
     .hero__portrait {
         width: 100%;
-        max-width: 250px;
+        max-width: 340px;
         height: auto;
         border-radius: 16px;
         object-fit: cover;

@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1bca90-48bd-47bd-8aea-92ce761ecbaf" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/public/copilul-la-terapeut.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/cum-alegi-psihoterapeut.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imaginea-de-sine-copii.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imaginea-de-sine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/linistea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/salvatorul.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/triunghiul-dramatic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ClientImage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/articole/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/articole/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/articole/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/articole/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/articles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/articles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SiteHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SiteHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +21,9 @@
     <persistenceIdMap>
       <entry key="_C:/Users/quant/WebstormProjects/smartsteps" value="35z8QXEpPLdd2HMMuXfUe1LOQLz" />
     </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="43" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,9 +45,13 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/bamboo6043/smartsteps.git&quot;,
-    &quot;accountId&quot;: &quot;8881ead0-9c25-4639-adc3-b0e4352abb49&quot;
+    &quot;accountId&quot;: &quot;665e9092-1a55-47f2-8589-62f87b0685c8&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -69,6 +69,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -83,9 +84,9 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/quant/AppData/Roaming/JetBrains/WebStorm2025.3/node/versions/24.13.0/node&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AcpAgentsConfigurable&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\quant\\WebstormProjects\\smartsteps\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -136,6 +137,9 @@
       <workItem from="1770402429560" duration="2033000" />
       <workItem from="1771879577210" duration="28000" />
       <workItem from="1772035595211" duration="1602000" />
+      <workItem from="1772815745089" duration="207000" />
+      <workItem from="1772815973003" duration="1027000" />
+      <workItem from="1772817015075" duration="1634000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
