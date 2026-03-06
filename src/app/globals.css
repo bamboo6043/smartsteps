@@ -8,10 +8,21 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
+}
+
+/* Offset anchor targets for sticky header */
+section[id],
+h2[id],
+h3[id] {
+    scroll-margin-top: 84px;
 }
 
 :root {
@@ -1108,6 +1119,40 @@ article a[href^="mailto:"] {
 }
 
 /* ---------------------------
+   Services / Referinte nav tabs
+---------------------------- */
+
+.referinte-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.btn-filter {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.55rem 1.25rem;
+    border-radius: var(--radius-pill);
+    background: var(--color-surface-soft);
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    font-size: 0.92rem;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+
+.btn-filter:hover {
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+    border-color: rgba(21, 123, 127, 0.3);
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+/* ---------------------------
    Articles Page
 ---------------------------- */
 
@@ -1419,6 +1464,239 @@ article a[href^="mailto:"] {
     color: var(--color-text-muted);
     margin: 0 0 1rem;
     line-height: 1.6;
+}
+
+/* ---------------------------
+   Anchor target highlight
+   Fires when a btn-filter link scrolls to a section.
+   CSS :target matches the hash in the URL — the animation
+   plays once (3 s) then settles back to the normal heading color.
+---------------------------- */
+
+section:target > h2,
+h2:target {
+    animation: anchor-highlight 3s ease forwards;
+}
+
+@keyframes anchor-highlight {
+    0%   { color: var(--color-primary); }
+    55%  { color: var(--color-primary); }
+    100% { color: #0f172a; }
+}
+
+/* ---------------------------
+   Events Page
+---------------------------- */
+
+.events-page {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.events-section-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--color-text-muted);
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 1.5rem;
+}
+
+.event-card {
+    background: var(--color-surface);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-soft);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
+}
+
+.event-image {
+    position: relative;
+    height: 175px;
+    overflow: hidden;
+    background: var(--color-surface-soft);
+}
+
+.event-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover .event-image img {
+    transform: scale(1.04);
+}
+
+.event-category-badge {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    padding: 0.25rem 0.7rem;
+    border-radius: var(--radius-pill);
+    background: rgba(249, 250, 251, 0.93);
+    backdrop-filter: blur(6px);
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    border: 1px solid rgba(21, 123, 127, 0.2);
+}
+
+.event-content {
+    padding: 1.3rem 1.4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 0.7rem;
+}
+
+.event-content h3 {
+    margin: 0;
+    font-size: 1.02rem;
+    line-height: 1.4;
+    color: var(--color-text);
+}
+
+.event-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.event-date-time,
+.event-time {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.84rem;
+    color: var(--color-text-muted);
+}
+
+.event-date-time svg,
+.event-time svg {
+    flex-shrink: 0;
+    color: var(--color-primary);
+    opacity: 0.75;
+}
+
+.event-description {
+    font-size: 0.9rem;
+    color: #4b5563;
+    line-height: 1.6;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.event-cta {
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 0.5rem 1.2rem;
+    border-radius: var(--radius-pill);
+    background: var(--color-primary-soft);
+    border: 1px solid rgba(21, 123, 127, 0.25);
+    color: var(--color-primary);
+    font-size: 0.88rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+}
+
+.event-cta:hover {
+    background: var(--color-primary);
+    color: #ffffff;
+    border-color: var(--color-primary);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(21, 123, 127, 0.28);
+}
+
+/* Newsletter */
+
+.newsletter-section {
+    margin-top: 2.5rem;
+    padding: 2.2rem 2.5rem;
+    background: var(--color-primary-soft);
+    border-radius: 20px;
+    border: 1px solid rgba(21, 123, 127, 0.18);
+    text-align: center;
+}
+
+.newsletter-content h2 {
+    margin-top: 0;
+    color: var(--color-primary);
+}
+
+.newsletter-content p {
+    color: #374151;
+    margin-bottom: 1.4rem;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 0.75rem;
+    max-width: 440px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.newsletter-form input {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.6rem 1rem;
+    border: 1px solid rgba(21, 123, 127, 0.3);
+    border-radius: var(--radius-pill);
+    font-size: 0.95rem;
+    background: #ffffff;
+    color: var(--color-text);
+    outline: none;
+    font-family: inherit;
+}
+
+.newsletter-form input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(21, 123, 127, 0.1);
+}
+
+@media (max-width: 720px) {
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter-section {
+        padding: 1.5rem 1.2rem;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .newsletter-form input {
+        min-width: 0;
+    }
 }
 
 /* Mobile adjustments */
