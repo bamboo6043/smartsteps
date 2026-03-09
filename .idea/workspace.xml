@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec1bca90-48bd-47bd-8aea-92ce761ecbaf" name="Changes" comment="Fixed social icons, hero image size (mobile-only), re-worked the burger menu, and re-sized the logo.">
+    <list default="true" id="ec1bca90-48bd-47bd-8aea-92ce761ecbaf" name="Changes" comment="Added auto-scroll + title highlighting, removed redundant articles' extra title (was ugly af), + others.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/articole/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/articole/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/wiskee/Projects/smartsteps/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/v/WebstormProjects/smartsteps&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -136,7 +134,8 @@
       <workItem from="1772035595211" duration="1602000" />
       <workItem from="1772815745089" duration="207000" />
       <workItem from="1772815973003" duration="1027000" />
-      <workItem from="1772817015075" duration="2825000" />
+      <workItem from="1772817015075" duration="4782000" />
+      <workItem from="1772908964636" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -178,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772818713659</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added auto-scroll + title highlighting, removed redundant articles' extra title (was ugly af), + others.">
+      <option name="closed" value="true" />
+      <created>1772819946275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772819946275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +218,8 @@
     <MESSAGE value="Added articles page, restructured events section, added social media links." />
     <MESSAGE value="." />
     <MESSAGE value="Fixed social icons, hero image size (mobile-only), re-worked the burger menu, and re-sized the logo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed social icons, hero image size (mobile-only), re-worked the burger menu, and re-sized the logo." />
+    <MESSAGE value="Added auto-scroll + title highlighting, removed redundant articles' extra title (was ugly af), + others." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added auto-scroll + title highlighting, removed redundant articles' extra title (was ugly af), + others." />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
