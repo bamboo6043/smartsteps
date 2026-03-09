@@ -1,15 +1,16 @@
-import Link from "next/link";
 import { articles } from "@/data/articles";
-import ClientImage from "@/components/ClientImage";
+import ArticlesClient from "@/components/ArticlesClient";
 
 export const metadata = {
   title: "Articole – Smart Steps",
   description:
-    "Cititi articolele noastre despre psihoterapie, dezvoltare personala si relatii sanatoase.",
+    "Citiți articolele noastre despre psihoterapie, dezvoltare personală și relații sănătoase.",
 };
 
 export default function ArticlesPage() {
-  const fallback = "/logo.png";
+  const sorted = [...articles].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
 
   return (
     <div className="articles-page">
@@ -19,37 +20,7 @@ export default function ArticlesPage() {
           Explorați articole despre psihoterapie, dezvoltare personală și relații sănătoase.
         </p>
       </div>
-
-      <section className="articles-grid">
-        {articles.map((article) => (
-          <article key={article.id} className="article-card">
-            <div className="article-image">
-              <ClientImage
-                src={article.thumbnailUrl ?? article.imageUrl ?? fallback}
-                alt={article.title}
-              />
-            </div>
-            <div className="article-content">
-              <Link href={`/articole/${article.slug}`}>
-                <h3>{article.title}</h3>
-              </Link>
-              <p className="article-excerpt">{article.excerpt}</p>
-              <div className="article-meta">
-                <span className="article-date">
-                  {new Date(article.date).toLocaleDateString("ro-RO", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
-                </span>
-              </div>
-              <Link href={`/articole/${article.slug}`} className="article-link">
-                Citiți articolul →
-              </Link>
-            </div>
-          </article>
-        ))}
-      </section>
+      <ArticlesClient articles={sorted} />
     </div>
   );
 }

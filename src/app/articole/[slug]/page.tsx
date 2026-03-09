@@ -61,6 +61,13 @@ export default async function ArticlePage({
         </div>
       </div>
 
+      <div className="article-featured-image">
+        <ClientImage
+          src={art.thumbnailUrl ?? art.imageUrl ?? fallback}
+          alt={art.title}
+        />
+      </div>
+
       <div className="article-body">
         {art.content.split("\n\n").map((paragraph, idx) => {
           // Remove leading/trailing quotes and whitespace for comparison
