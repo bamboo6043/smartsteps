@@ -1,18 +1,19 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
-import { Playfair_Display, Source_Sans_3 } from "next/font/google";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import SiteHeader from "../components/SiteHeader";
 import NavigationLoader from "../components/NavigationLoader";
 import ThemeToggle from "../components/ThemeToggle";
 
-const headingFont = Playfair_Display({
+const headingFont = Cormorant_Garamond({
     subsets: ["latin-ext"],
-    weight: ["500", "600", "700"],
+    weight: ["400", "500", "600", "700"],
+    style: ["normal", "italic"],
     variable: "--font-heading",
 });
 
-const bodyFont = Source_Sans_3({
+const bodyFont = Inter({
     subsets: ["latin-ext"],
     weight: ["400", "500", "600"],
     variable: "--font-body",

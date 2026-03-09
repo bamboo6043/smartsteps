@@ -32,6 +32,11 @@ export default function SiteHeader() {
                     </Link>
                 </div>
 
+                {/* Mobile-only theme toggle — left of logo, hidden on desktop via CSS */}
+                <div className="theme-toggle-mobile">
+                    <ThemeToggle />
+                </div>
+
                 {/* Burger button – visible only on mobile via CSS */}
                 <button
                     type="button"
@@ -56,7 +61,7 @@ export default function SiteHeader() {
                     <Link href="/referinte" onClick={close}>Referinte</Link>
                     <Link href="/contact" onClick={close}>Contact</Link>
 
-                    {/* Mobile bottom row: social + theme toggle */}
+                    {/* Mobile bottom row: social links */}
                     <div className="nav-social" role="list" aria-label="Linkuri sociale">
                         <a
                             href={SOCIAL_LINKS.facebook}
@@ -78,7 +83,6 @@ export default function SiteHeader() {
                         >
                             <InstagramIcon />
                         </a>
-                        <ThemeToggle />
                     </div>
                 </nav>
 
