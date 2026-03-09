@@ -4,138 +4,247 @@ export default function ServiciiPage() {
         <article>
             <h1>Servicii</h1>
 
-            <div className="servicii-tabs referinte-filters" role="tablist" aria-label="Servicii">
+            <div className="referinte-filters" role="tablist" aria-label="Servicii">
                 <a href="#tine" className="btn-filter" role="tab">Pentru tine</a>
-                <a href="#companii" className="btn-filter" role="tab">Pentru companii</a>
-                <a href="#metode" className="btn-filter" role="tab">Metodele mele</a>
+                <a href="#organizatii" className="btn-filter" role="tab">Pentru organizații</a>
+                <a href="#metode" className="btn-filter" role="tab">Cum lucrez</a>
             </div>
 
+            {/* ── PENTRU TINE ── */}
             <section id="tine">
-                <h2>Cum te pot îndruma?</h2>
+                <h2>Pentru tine</h2>
                 <p>
-                    Dezvoltarea personală sună deseori ca un deziderat, un plan al altora
-                    pentru tine. Cele mai puternice rezultate se obțin însă atunci când
-                    tu ești inițiatorul dezvoltării.
+                    Dezvoltarea personală sună adesea ca un plan al altora pentru tine. Cele mai puternice rezultate apar însă atunci când tu ești inițiatorul schimbării.
                 </p>
                 <p>
-                    Nu îți propun să te schimbi, ci să te cunoști mai bine și să identifici
-                    cum poți activa acele abilități care să te pună și mai bine în valoare.
+                    Nu îți propun să te schimbi, ci să te cunoști mai bine și să identifici acele resurse și abilități care pot fi activate pentru a te pune și mai bine în valoare. Lucrăm structurat, pornind de la obiective clare, și construim, pas cu pas, competențe și comportamente aplicabile imediat.
                 </p>
-                <p>
-                    Îți ofer sprijin personalizat, pornind de la obiectivele tale de
-                    carieră, fie că vizezi succesul în cadrul companiei actuale, al uneia
-                    viitoare sau pur și simplu vrei să evoluezi ca persoană.
-                </p>
+
+                <h3 className="services-subsection">Sesiuni individuale</h3>
+                <div className="services-grid">
+                    <div className="service-card">
+                        <span className="service-card-tag">Individual</span>
+                        <h3>Dezvoltare personală</h3>
+                        <p>Un proces orientat pe obiectiv, în care clarificăm direcția și construim pași concreti de acțiune. Lucrăm aplicat, cu exerciții, simulări, role-play și feedback în timp real.</p>
+                        <ul>
+                            <li>Abilități de prezentare și vorbit în public</li>
+                            <li>Competențe manageriale și de leadership</li>
+                            <li>Comunicare și influență</li>
+                            <li>Organizare personală și prioritizare</li>
+                            <li>Gestionarea stresului și prevenirea burnout-ului</li>
+                            <li>Creșterea încrederii în sine</li>
+                            <li>Tranziții de rol sau schimbări în carieră</li>
+                        </ul>
+                    </div>
+
+                    <div className="service-card">
+                        <span className="service-card-tag">Individual</span>
+                        <h3>Consiliere psihologică</h3>
+                        <p>Un spațiu sigur și structurat pentru înțelegerea și gestionarea emoțiilor, blocajelor și situațiilor dificile. Accentul este pus pe conștientizare, reglare emoțională și integrarea schimbării în viața reală.</p>
+                        <ul>
+                            <li>Anxietate și stres</li>
+                            <li>Burnout</li>
+                            <li>Dificultăți de relaționare</li>
+                            <li>Încredere în sine</li>
+                            <li>Echilibru viață–carieră</li>
+                            <li>Adaptare la schimbare</li>
+                        </ul>
+                    </div>
+
+                    <div className="service-card">
+                        <span className="service-card-tag">Individual</span>
+                        <h3>Evaluare psihologică</h3>
+                        <p>Realizată în baza acreditării în Psihologie Clinică și Siguranță și Securitate Națională, pentru a oferi claritate asupra funcționării psihologice și a direcțiilor de dezvoltare.</p>
+                        <ul>
+                            <li>Evaluare clinică</li>
+                            <li>Orientare profesională</li>
+                            <li>Evaluarea resurselor psihologice</li>
+                            <li>Evaluări specifice pentru contexte de siguranță</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 className="services-subsection">Sesiuni de grup</h3>
+                <div className="services-grid">
+                    <div className="service-card">
+                        <span className="service-card-tag">Grup</span>
+                        <h3>Retreat-uri de dezvoltare personală</h3>
+                        <p>Experiențe imersive (1–3 zile) dedicate reflecției, reconectării și clarificării direcției personale și profesionale. Beneficii: claritate, energie, reset mental și pași concreti pentru schimbare.</p>
+                        <ul>
+                            <li>Exerciții ghidate de autocunoaștere</li>
+                            <li>Lucru pe obiective personale</li>
+                            <li>Tehnici de reglare emoțională și reducere a stresului</li>
+                            <li>Sesiuni de integrare și plan de acțiune</li>
+                        </ul>
+                    </div>
+
+                    <div className="service-card">
+                        <span className="service-card-tag">Grup</span>
+                        <h3>Ateliere de psihoeducație</h3>
+                        <p>Sesiuni interactive și aplicate, față în față sau online, pe teme relevante pentru viața de zi cu zi.</p>
+                        <ul>
+                            <li>Gestionarea stresului și prevenirea burnout-ului</li>
+                            <li>Încredere în sine și relații</li>
+                            <li>Limite personale și asertivitate</li>
+                            <li>Emoții și autoreglare</li>
+                            <li>Perfectionism și sindromul impostorului</li>
+                            <li>Reziliență și luarea deciziilor</li>
+                        </ul>
+                    </div>
+
+                    <div className="service-card">
+                        <span className="service-card-tag">Grup · Experiențial</span>
+                        <h3>Ateliere de dezvoltare personală</h3>
+                        <p>Lucru în grupuri mici, folosind metode experiențiale și creative (artă, reflecție ghidată), pentru insight și schimbare profundă.</p>
+                    </div>
+                </div>
             </section>
 
-            <section>
-                <h2>Cum funcționează?</h2>
-                <ul>
-                    <li>
-                        Ne întâlnim față în față sau online și analizăm ce funcționează bine
-                        pentru tine, care este stilul tău de învățare, ce planuri de viață /
-                        carieră ai, ce temeri îți stau în cale și ce te blochează.
-                    </li>
-                    <li>Identificăm problema și agreăm un plan concret de lucru.</li>
-                    <li>
-                        De obicei, pentru obiective precum cele menționate, lucrăm între
-                        6–8 întâlniri de 90 de minute, săptămânal sau bilunar.
-                    </li>
-                    <li>
-                        Financiar, o sesiune individuală presupune o investiție între
-                        250–400 lei, în funcție de instrumentele utilizate, timpul petrecut
-                        și recurență. Pentru companii și programe complexe, oferta se stabilește punctual.
-                    </li>
-                    <li>
-                        Lucrăm pe obiectiv, folosim metode și instrumente concrete, exerciții,
-                        role-play, simulări și feedback în timp real.
-                    </li>
-                </ul>
+            {/* ── PENTRU ORGANIZAȚII ── */}
+            <section id="organizatii">
+                <h2>Pentru organizații</h2>
                 <p>
-                    Dacă vrei o comparație – e ca un antrenament de fitness cu instructor
-                    personal, dar pentru evoluția ta personală și profesională.
+                    Susțin dezvoltarea oamenilor și a organizațiilor prin intervenții pragmatice, integrate și aliniate obiectivelor de business. Abordarea mea îmbină expertiza în psihologie, leadership și dezvoltare organizațională, cu o perspectivă aplicată și orientată pe rezultate.
                 </p>
+
+                <h3 className="services-subsection">Intervenții individuale</h3>
+                <div className="services-grid">
+                    <div className="service-card">
+                        <span className="service-card-tag">1:1</span>
+                        <h3>Dezvoltare profesională, mentorat &amp; coaching</h3>
+                        <p>Sesiuni 1:1 dedicate managerilor și angajaților-cheie, pornind de la obiective profesionale clare și măsurabile. Obiectiv: creșterea performanței, claritate decizională și consolidarea rolului de lider.</p>
+                        <ul>
+                            <li>Definirea obiectivelor de dezvoltare</li>
+                            <li>Sesiuni structurate și orientate pe rezultate</li>
+                            <li>Exerciții aplicate și simulare de situații reale</li>
+                            <li>Follow-up pentru integrarea schimbărilor</li>
+                        </ul>
+                    </div>
+
+                    <div className="service-card">
+                        <span className="service-card-tag">1:1</span>
+                        <h3>Consiliere psihologică pentru angajați</h3>
+                        <p>Sprijin individual cu impact direct în performanță, retenție și wellbeing organizațional.</p>
+                        <ul>
+                            <li>Gestionarea stresului și prevenirea burnout-ului</li>
+                            <li>Dificultăți de relaționare</li>
+                            <li>Echilibru emoțional și adaptare la schimbare</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 className="services-subsection">Programe de grup</h3>
+                <div className="services-grid">
+                    <div className="service-card">
+                        <span className="service-card-tag">Manageri · 4×2h</span>
+                        <h3>Webinarii pentru manageri</h3>
+                        <p>Obiectiv: dezvoltarea unui climat sănătos și performant.</p>
+                        <ul>
+                            <li>Siguranță psihologică</li>
+                            <li>Comunicare și feedback constructiv</li>
+                            <li>Motivarea echipei</li>
+                            <li>Gestionarea performanței</li>
+                            <li>Leadership autentic și responsabil</li>
+                        </ul>
+                    </div>
+
+                    <div className="service-card">
+                        <span className="service-card-tag">Angajați · 4×2h</span>
+                        <h3>Webinarii pentru angajați</h3>
+                        <p>Programe de wellbeing și dezvoltare pentru echipe.</p>
+                        <ul>
+                            <li>Stres și reziliență</li>
+                            <li>Relații și comunicare</li>
+                            <li>Echilibru viață–carieră</li>
+                            <li>Încredere în sine</li>
+                            <li>Adaptare la schimbare</li>
+                        </ul>
+                    </div>
+
+                    <div className="service-card">
+                        <span className="service-card-tag">Leadership</span>
+                        <h3>Programe de dezvoltare pentru manageri</h3>
+                        <p>Programe integrate, individual sau în grupuri mici, pentru dezvoltarea abilităților de leadership și creșterea maturității manageriale.</p>
+                    </div>
+
+                    <div className="service-card">
+                        <span className="service-card-tag">Intensiv · 1–3 zile</span>
+                        <h3>Retreat-uri de dezvoltare</h3>
+                        <p>Programe intensive pentru reflecție strategică, aliniere și dezvoltare personală și profesională a echipelor sau leadershipului.</p>
+                    </div>
+                </div>
+
+                <h3 className="services-subsection">Consultanță organizațională</h3>
+                <div className="services-grid">
+                    <div className="service-card">
+                        <span className="service-card-tag">Wellbeing</span>
+                        <h3>Wellbeing organizațional</h3>
+                        <p>Audit al practicilor existente și design de programe integrate de wellbeing, aliniate cu procesele de HR și obiectivele companiei. Obiectiv: impact real și sustenabil în cultura organizațională.</p>
+                    </div>
+
+                    <div className="service-card">
+                        <span className="service-card-tag">D&amp;I</span>
+                        <h3>Diversitate &amp; Incluziune</h3>
+                        <p>Definirea și implementarea inițiativelor de D&amp;I integrate în procesele organizaționale.</p>
+                        <ul>
+                            <li>Climat organizațional sănătos</li>
+                            <li>Incluziune reală</li>
+                            <li>Coeziune și performanță</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
-            <section>
-                <h2>Exemple de obiective</h2>
-                <ul>
-                    <li>Să aplici principiile delegării eficace cu membrii echipei tale.</li>
-                    <li>Să crești performanța echipei prin metode de motivare eficiente.</li>
-                    <li>Să îți îmbunătățești prezentările către board sau către public.</li>
-                    <li>Să îți dezvolți abilitățile de influență și persuasiune.</li>
-                    <li>Să îți redescoperi încrederea în sine.</li>
-                    <li>Să devii mai performant în activitatea ta.</li>
-                    <li>
-                        Să identifici abilitățile și competențele care te pot propulsa în viață.
-                    </li>
-                    <li>
-                        Să preiei frâiele vieții tale și să fii încrezător în deciziile pe care le iei.
-                    </li>
-                </ul>
-            </section>
-
-            <section>
-                <h2 id="metode">Metodele mele</h2>
-
-                <h3>Mentoring</h3>
+            {/* ── CUM LUCREZ ── */}
+            <section id="metode">
+                <h2>Cum lucrez</h2>
                 <p>
-                    Prin mentorat, ofer ghidare personalizată și sprijin constant,
-                    ajutându-te să identifici obiective clare, să depășești obstacole
-                    și să îți dezvolți abilitățile necesare pentru a-ți atinge potențialul.
-                    Folosesc exemple practice, feedback constructiv și împărtășesc inclusiv
-                    erorile din care am învățat.
+                    Indiferent dacă lucrăm individual sau cu organizații, abordarea mea rămâne consecventă: structurată, aplicată și orientată spre rezultate concrete. Îmbin mai multe metode de lucru, adaptate contextului și obiectivelor fiecărui client:
                 </p>
 
-                <h3>Fireside chats</h3>
-                <p>
-                    Un format informal, față în față, folosit mai ales în companii.
-                    Ideal pentru grupuri mici (3–4 persoane) care își doresc discuții
-                    deschise despre leadership, motivarea echipei, rezolvarea conflictelor
-                    și alte teme stabilite împreună.
-                </p>
+                <div className="methods-grid">
+                    <div className="method-card">
+                        <h3>Mentoring</h3>
+                        <p>
+                            Prin mentorat, ofer ghidare personalizată și sprijin constant, ajutându-te să identifici obiective clare, să depășești obstacole și să îți dezvolți abilitățile necesare. Folosesc exemple practice, feedback constructiv și împărtășesc inclusiv erorile din care am învățat.
+                        </p>
+                    </div>
 
-                <h3>Onboarding eficace din prima zi</h3>
-                <p>
-                    Sprijin pentru nou-veniți, mai ales în roluri de management, pentru o
-                    integrare rapidă, acceptare din partea echipei și consolidarea
-                    reputației încă din prima zi.
-                </p>
+                    <div className="method-card">
+                        <h3>Fireside chats</h3>
+                        <p>
+                            Un format informal, față în față, folosit mai ales în companii. Ideal pentru grupuri mici (3–4 persoane) care își doresc discuții deschise despre leadership, motivarea echipei, rezolvarea conflictelor și alte teme stabilite împreună.
+                        </p>
+                    </div>
 
-                <h3>Focused learning 1:1</h3>
-                <p>
-                    Învățare concentrată pe abilități specifice (delegare, prioritizare,
-                    motivare, gestionarea energiei, abilități de prezentare, reziliență)
-                    cu aplicare imediată, exemple concrete și feedback rapid.
-                </p>
+                    <div className="method-card">
+                        <h3>Onboarding eficace din prima zi</h3>
+                        <p>
+                            Sprijin pentru nou-veniți, mai ales în roluri de management, pentru o integrare rapidă, acceptare din partea echipei și consolidarea reputației încă din prima zi.
+                        </p>
+                    </div>
 
-                <h3>Consiliere pentru tranziții de carieră</h3>
-                <p>
-                    Pentru cei care trec prin schimbări profesionale majore: preluarea
-                    unui nou rol, schimbarea domeniului, revenirea pe piața muncii.
-                    Lucrăm pe clarificarea obiectivelor, plan de acțiune, construirea
-                    încrederii și pregătirea interviurilor.
-                </p>
+                    <div className="method-card">
+                        <h3>Focused learning 1:1</h3>
+                        <p>
+                            Învățare concentrată pe abilități specifice (delegare, prioritizare, motivare, gestionarea energiei, abilități de prezentare, reziliență) cu aplicare imediată, exemple concrete și feedback rapid.
+                        </p>
+                    </div>
 
-                <h3>Workshop-uri personalizate</h3>
-                <p>
-                    Sesiuni de grup pe teme precum „Tehnici de influență” sau
-                    „Gestionarea stresului”, cu activități practice, exerciții și studii
-                    de caz, organizate online sau offline, adaptate nevoilor organizației.
-                </p>
-            </section>
+                    <div className="method-card">
+                        <h3>Consiliere pentru tranziții de carieră</h3>
+                        <p>
+                            Pentru cei care trec prin schimbări profesionale majore: preluarea unui nou rol, schimbarea domeniului, revenirea pe piața muncii. Lucrăm pe clarificarea obiectivelor, plan de acțiune, construirea încrederii și pregătirea interviurilor.
+                        </p>
+                    </div>
 
-            <section>
-                <h2 id="companii">Pentru companii</h2>
-                <p>
-                    Metodele mele se adresează în special IMM-urilor care nu au un
-                    departament dedicat de Resurse Umane sau o echipă de Learning &amp; Development.
-                </p>
-                <p>
-                    Ofer suport în crearea unei strategii de dezvoltare a echipei, intervenții
-                    rapide pentru management sau angajați-cheie și evaluări în scop de
-                    dezvoltare, cu o abordare pragmatică, aliniată la nevoile de business.
-                </p>
+                    <div className="method-card">
+                        <h3>Workshop-uri personalizate</h3>
+                        <p>
+                            Sesiuni de grup pe teme precum „Tehnici de influență" sau „Gestionarea stresului", cu activități practice, exerciții și studii de caz, organizate online sau offline, adaptate nevoilor organizației.
+                        </p>
+                    </div>
+                </div>
             </section>
         </article>
     );

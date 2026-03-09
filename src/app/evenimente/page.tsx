@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ClientImage from "@/components/ClientImage";
 
 export const metadata = {
   title: "Evenimente – Smart Steps",
@@ -72,7 +73,7 @@ export default function EventsPage() {
                   <article key={event.id} className="event-card">
                     {event.image && (
                       <div className="event-image">
-                        <img src={event.image} alt={event.title} />
+                        <ClientImage src={event.image} alt={event.title} />
                         <span className="event-category-badge">{event.category}</span>
                       </div>
                     )}
@@ -80,7 +81,7 @@ export default function EventsPage() {
                       <h3>{event.title}</h3>
                       <div className="event-meta">
                         <div className="event-date-time">
-                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
                             <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
                             <line x1="16" y1="2" x2="16" y2="6"></line>
                             <line x1="8" y1="2" x2="8" y2="6"></line>
@@ -89,7 +90,7 @@ export default function EventsPage() {
                           <span>{event.date}</span>
                         </div>
                         <div className="event-time">
-                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
                             <circle cx="12" cy="12" r="10"></circle>
                             <polyline points="12 6 12 12 16 14"></polyline>
                           </svg>
@@ -97,7 +98,9 @@ export default function EventsPage() {
                         </div>
                       </div>
                       <p className="event-description">{event.description}</p>
-                      <button className="event-cta">Află mai multe</button>
+                      <Link href="/contact" className="event-cta">
+                        Înscrie-te
+                      </Link>
                     </div>
                   </article>
                 ))}
@@ -110,16 +113,15 @@ export default function EventsPage() {
       <section className="newsletter-section">
         <div className="newsletter-content">
           <h2>Rămâi conectat</h2>
-          <p>Abonează-te la buletinul meu și primește notificări despre noile ateliere și articole.</p>
-          <form className="newsletter-form">
-            <input type="email" placeholder="Adresa ta de email..." required />
-            <button type="submit" className="btn-primary">
-              Abonează-te
-            </button>
-          </form>
+          <p>
+            Vrei să fii printre primii care află despre noile ateliere și articole?
+            Scrie-mi direct și te adaug pe lista de notificări.
+          </p>
+          <Link href="/contact" className="btn-primary">
+            Trimite-mi un mesaj
+          </Link>
         </div>
       </section>
     </div>
   );
 }
-

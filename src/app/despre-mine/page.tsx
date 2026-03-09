@@ -6,25 +6,28 @@ export default function DespreMinePage() {
 
             <section>
                 <p>
-                    Sunt Beatrice, psiholog, trainer si consilier in dezvoltare personala, iar misiunea mea este sa te sprijin sa iti descoperi potentialul si sa depasesti obstacolele care te tin pe loc, pentru a construi o viata implinita, atat profesional, cat si personal.
+                    Sunt Beatrice, consilier in dezvoltare personala si psiholog clinician, cu peste 20 de ani experienta in dezvoltare organizationala.
                 </p>
                 <p>
-                    Cu peste 20 de ani de experiență în dezvoltarea oamenilor în mediul
-                    organizațional, îți ofer o abordare empatică și pragmatică, bazată pe
-                    cunoștințe solide și lecții învățate atât din reușite, cât și din greșeli –
-                    ale mele și ale altora.
+                    Am lucrat cu peste 5000 de manageri, echipe si organizatii in procese de transformare, dezvoltare a leadershipului, crestere a performantei si consolidare a culturii organizationale. Inteleg atat dinamica interioara a persoanei, cat si presiunile reale ale mediului de business.
                 </p>
                 <p>
-                    Am avut privilegiul să influențez peste 5000 de manageri în parcursul
-                    lor profesional. Astăzi, îți propun să te sprijin în procesul de
-                    autocunoaștere, să stabilim împreună obiective clare și să atingem
-                    potențialul tău maxim, fără a compromite echilibrul interior.
+                    In lucrul individual, te ajut sa iti clarifici directia, sa iti regasesti increderea si sa construiesti schimbari sustenabile – in ritmul tau.
+                </p>
+                <p>
+                    In lucrul cu organizatiile, sustin dezvoltarea oamenilor, a echipelor si a culturii organizationale prin interventii pragmatice, integrate si aliniate obiectivelor de business.
+                </p>
+                <p>
+                    Experienta mea imbina psihologia clinica, consilierea si dezvoltarea personala cu expertiza in resurse umane, leadership, wellbeing si diversitate &amp; incluziune.
+                </p>
+                <p>
+                    Nu cred in retete universale. Cred in procese bine gandite, in claritate, responsabilitate si pasi mici care duc la rezultate profunde.
                 </p>
             </section>
 
             <section>
                 <h2>Formarea mea</h2>
-                <ul>
+                <ul className="credentials-list">
                     <li>Universitatea București – Facultatea de Sociologie, profil Sociopsihopedagogie</li>
                     <li>Facultatea de Psihologie</li>
                     <li>Master – Universitatea București, Comunicare și Managementul Resurselor Umane</li>
@@ -33,7 +36,8 @@ export default function DespreMinePage() {
                     <li>SHRM, USA – Senior Certified Professional</li>
                     <li>Hogan Assessments Certification</li>
                     <li>Austrian Training Center for NLP, EANLPt – NLP Professional Coach</li>
-                    <li>Psiholog clinician (acreditat COPSI)</li>
+                    <li>Program de formare – Trauma și relații: restaurarea conexiunii și a relațiilor sănătoase în situații de traumă</li>
+                    <li>Psiholog clinician <span className="credential-badge">acreditat COPSI</span></li>
                     <li>Trainer acreditat</li>
                     <li>Consilier de dezvoltare personală acreditat</li>
                 </ul>
@@ -42,9 +46,9 @@ export default function DespreMinePage() {
             <section>
                 <h2>Rolurile mele pentru tine</h2>
                 <p>
-                    În funcție de nevoile tale, pot îmbina mai multe roluri:
+                    În funcție de nevoile tale, pot integra mai multe roluri în același proces de lucru:
                 </p>
-                <ul>
+                <ul className="roles-list">
                     <li>Consiliere și evaluare psihologică</li>
                     <li>Dezvoltare personală</li>
                     <li>Coaching</li>
@@ -56,15 +60,10 @@ export default function DespreMinePage() {
             <section>
                 <h2>Hai să ne cunoaștem</h2>
                 <p>
-                    Dacă îți propui să evoluezi, fie în cadrul unei companii, fie ca
-                    profesionist independent sau antreprenor, îți pot fi alături cu o
-                    abordare personalizată, adaptată ritmului tău și obiectivelor tale.
+                    Dacă îți propui să evoluezi – fie în cadrul unei companii, fie ca profesionist independent sau antreprenor – îți pot fi alături printr-o abordare personalizată, adaptată ritmului și obiectivelor tale.
                 </p>
                 <p>
-                    Propunerea mea este atât pentru persoane care își doresc să crească,
-                    cât și pentru companii mici și mijlocii care sunt pregătite să își
-                    dezvolte capitalul uman și să își consolideze performanța
-                    organizațională prin metode pragmatice.
+                    Lucrez atât cu persoane care își doresc claritate și creștere, cât și cu companii mici și mijlocii pregătite să își dezvolte capitalul uman și să își consolideze performanța organizațională prin metode pragmatice și aplicate.
                 </p>
             </section>
         </article>
