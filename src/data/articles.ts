@@ -77,7 +77,7 @@ A ajuta este o resursa valoroasa. A te pierde pe tine in ajutorul oferit celorla
     excerpt:
       "De ce retraiesc aceeasi poveste cu alti oameni? Modelul Triunghiului dramatic explica patternurile relationale si cum iesim din ele.",
     category: "Relatii",
-    date: "2024-01-20",
+    date: "2024-03-12",
     relatedArticles: ["salvatorului", "imagine-de-sine"],
     imageUrl: "/images/articles/triunghiul-dramatic.jpg",
     thumbnailUrl: "/triunghiul-dramatic.jpg",
@@ -166,7 +166,7 @@ Triunghiul dramatic nu este o condamnare. Este un tipar invatat. Iar ceea ce a f
     excerpt:
       "Imaginea de sine nu este ceea ce suntem, ci ce credem despre noi. Cum se formeaza si cum poti sa o reconstruiesti.",
     category: "Dezvoltare Personala",
-    date: "2024-02-01",
+    date: "2024-09-18",
     relatedArticles: ["imagine-de-sine-copil", "psihoterapia-ca-spatiu"],
     imageUrl: "/images/articles/imagine-de-sine.jpg",
     thumbnailUrl: "/imaginea-de-sine.jpg",
@@ -237,7 +237,7 @@ Imaginea de sine nu este un dat. Este o constructie. Si orice constructie poate 
     excerpt:
       "Copiii invata cine sunt din felul in care sunt vazuti si tratati de parinti. Descoperiti cum construiti o imagine de sine sanatoasa la copilul vostru.",
     category: "Parenting",
-    date: "2024-02-05",
+    date: "2025-02-14",
     relatedArticles: ["imagine-de-sine", "psihoterapia-copilului"],
     imageUrl: "/images/articles/imagine-de-sine-copil.jpg",
     thumbnailUrl: "/imaginea-de-sine-copii.jpg",
@@ -349,7 +349,7 @@ Copiii devin, in timp, felul in care au fost vazuti. Privirea parintelui devine 
     excerpt:
       "De ce meream la psiholog daca nu am o problema clara? Cum psihoterapia este o forma profunda de dezvoltare personala.",
     category: "Psihoterapie",
-    date: "2024-02-10",
+    date: "2025-06-05",
     relatedArticles: ["alegerea-psiholog", "psihoterapia-copilului"],
     imageUrl: "/images/articles/psihoterapia.jpg",
     thumbnailUrl: "/linistea.jpg",
@@ -414,7 +414,7 @@ Psihoterapia nu este despre a cauta probleme acolo unde nu sunt. Este despre a-t
     excerpt:
       "Cum stiu daca copilul meu are nevoie de sprijin psihologic? Ce se intampla la o sedinta de psihoterapie pentru copii?",
     category: "Parenting",
-    date: "2024-02-15",
+    date: "2025-10-22",
     relatedArticles: ["imagine-de-sine-copil", "alegerea-psiholog"],
     imageUrl: "/images/articles/psihoterapia-copilului.jpg",
     thumbnailUrl: "/copilul-la-terapeut.jpg",
@@ -465,7 +465,7 @@ Copiii nu au intotdeauna cuvintele potrivite pentru a cere ajutor. Dar au compor
     excerpt:
       "Piata este plina de oferte si promisiuni. Cum gasesti un psihoterapeut competent si potrivit pentru tine?",
     category: "Psihoterapie",
-    date: "2024-02-20",
+    date: "2026-01-20",
     relatedArticles: ["psihoterapia-ca-spatiu", "psihoterapia-copilului"],
     imageUrl: "/images/articles/alegerea-psiholog.jpg",
     thumbnailUrl: "/cum-alegi-psihoterapeut.jpg",
@@ -520,6 +520,79 @@ Un gand de incheiere
 Alegerea unui psihoterapeut nu este despre a gasi "cel mai bun specialist", ci despre a gasi un om competent, potrivit pentru tine, in acest moment. Ai dreptul sa intrebi, sa verifici, sa testezi si, daca este nevoie, sa schimbi. Psihoterapia este un spatiu care ar trebui sa aduca claritate, siguranta si crestere. Daca simti ca nu se intampla asta, este in regula sa cauti mai departe.
 
 Nota: verificapsiholog.ro este o platforma independenta, neafiliata cu Colegiul Psihologilor din Romania, care preia datele din registrele oficiale publicate de COPSI. Scopul platformei este de a face aceste registre mai accesibile publicului larg.`,
+  },
+
+  {
+    id: "creierul-obosit-de-zgomot",
+    slug: "creierul-obosit-de-zgomot-de-ce-avem-nevoie-de-mai-multa-liniste",
+    title: "Creierul obosit de zgomot. De ce avem nevoie de mai multa liniste decat credem",
+    excerpt:
+      "Creierul nu ignora zgomotul – il interpreteaza. De ce linistea nu este doar placuta, ci o nevoie biologica reala, si ce se intampla cand, in sfarsit, o primim.",
+    category: "Sanatate Mintala",
+    date: "2026-03-05",
+    relatedArticles: ["psihoterapia-ca-spatiu", "imagine-de-sine"],
+    imageUrl: "/images/articles/creierul-obosit-de-zgomot.jpg",
+    thumbnailUrl: "/linistea.jpg",
+    bibliography: [
+      "Evans, G. W. (2006). Child development and the physical environment. Annual Review of Psychology.",
+      "Kraus, N., Anderson, S. (2014). The effects of environmental noise on the brain. Nature Reviews Neuroscience.",
+      "Duke University research on silence and hippocampal neurogenesis (2013).",
+    ],
+    content: `Ieri am avut cateva minute de liniste. O liniste neplanificata, aparuta intre doua lucruri de facut. Nu era muzica in fundal, telefonul nu vibra, nimeni nu vorbea. Pentru cateva clipe, totul a incetinit.
+
+Si primul gand a fost surprinzator: nu-mi dadusem seama cat de mult imi lipsise.
+
+Este firesc sa ne lipseasca. Pentru ca linistea nu este doar placuta — este o nevoie biologica a creierului. Doar ca, intr-o lume in care zgomotul a devenit normalitate, am inceput sa uitam cum se simte absenta lui.
+
+Hai sa iti explic de ce corpul si mintea reactioneaza atat de vizibil atunci cand, in sfarsit, se face liniste.
+
+Creierul nu ignora zgomotul. Il interpreteaza.
+Chiar daca noi ne-am obisnuit cu sunetele din jur, creierul nu le trateaza ca pe un simplu decor. El este programat sa monitorizeze permanent mediul pentru semnale de pericol.
+
+Stramosii nostri erau programati sa reactioneze rapid la sunete — un copac cazand, un tunet, un pradator.
+
+Problema este ca sistemul nervos nu face diferenta clara intre un leu si un telefon care vibreaza brusc, o usa trantita, un claxon, un latrat neasteptat, un vecin pe scara blocului, notificari care bazaie una dupa alta.
+
+Fiecare dintre aceste sunete declanseaza o reactie discreta, dar masurabila. Amigdala — centrul de alarma al creierului — se activeaza. Ritmul cardiac accelereaza usor. Respiratia se modifica. Muschii se tensioneaza aproape imperceptibil.
+
+Nu este panica. Este vigilenta.
+
+Problema nu este un singur zgomot. Problema este acumularea lor. Zeci, uneori sute de micro-reactii intr-o zi. Creierul ramane intr-o stare de alerta usoara, fara sa mai apuce sa revina complet la echilibru.
+
+Este ca si cum ai tine motorul pornit tot timpul, chiar si atunci cand masina sta pe loc.
+
+Psihologul Gary Evans a observat acest lucru in studiile sale despre copiii expusi constant la medii zgomotoase: niveluri mai ridicate de cortizol, dar si dificultati mai mari de concentrare. Concluzia a fost simpla — zgomotul schimba modul in care functioneaza creierul.
+
+Iar aceste cercetari au fost realizate intr-o perioada in care viata nu era dominata de notificari si ecrane. Nu este greu sa ne imaginam cat de solicitant este mediul actual pentru sistemul nostru nervos.
+
+Ce se schimba atunci cand apare linistea
+Poate ai observat si tu: uneori, cand zgomotul se opreste, corpul pare sa respire altfel. Gandurile incetinesc. Atentia se aseaza.
+
+Nu este o impresie.
+
+Cand stimularea scade, creierul iese treptat din modul de supraveghere si intra intr-o stare de reglare. Este momentul in care incepe sa faca ordine — proceseaza informatia, filtreaza experientele, reduce tensiunea acumulata.
+
+Un studiu realizat la Duke University a descoperit ca perioadele scurte de liniste pot stimula dezvoltarea neuronilor in hipocamp — zona implicata in memorie si invatare. Asadar, linistea sustine chiar mecanismele prin care creierul se adapteaza si invata.
+
+Gandeste-te la liniste ca la frana de care creierul are nevoie dupa prea multa acceleratie. Multi oameni traiesc apasand simultan ambele pedale — mereu in miscare, dar permanent obositi.
+
+Nu pentru ca nu sunt rezistenti, ci pentru ca sistemul nervos nu a primit suficient timp sa se regleze.
+
+De aceea, cateva minute fara stimulare pot avea un efect mai profund decat ne imaginam. Nu pentru ca facem ceva special, ci pentru ca, in sfarsit, ii permitem creierului sa faca ceea ce stie deja sa faca: sa se reorganizeze.
+
+Linistea ne incomodeaza uneori.
+Poate cea mai interesanta observatie este aceasta: cand sunetele dispar, apar gandurile pe care le-am tinut ocupate. Apar emotii neprocesate. Intrebari amanate. Pentru un creier obisnuit cu miscare continua, aceasta incetinire poate parea stranie.
+
+Dar nu este un semnal de alarma.
+
+Este, mai degraba, inceputul unei intalniri cu tine.
+
+Gand de final
+Nu putem elimina zgomotul din viata noastra. Viata inseamna miscare, iar miscarea face sunet.
+
+Dar putem deveni mai atenti la echilibru. Creierul nu are nevoie doar de stimulare. Are nevoie si de pauze. De spatiu. De momente in care nu se intampla nimic spectaculos — si tocmai de aceea se intampla lucruri esentiale.
+
+Poate ca linistea nu este un gol pe care trebuie sa-l umplem imediat. Poate este un loc in care merita sa ramanem putin.`,
   },
 ];
 
