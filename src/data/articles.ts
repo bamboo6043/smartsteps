@@ -351,8 +351,8 @@ Copiii devin, in timp, felul in care au fost vazuti. Privirea parintelui devine 
     category: "Psihoterapie",
     date: "2025-06-05",
     relatedArticles: ["alegerea-psiholog", "psihoterapia-copilului"],
-    imageUrl: "/images/articles/psihoterapia.jpg",
-    thumbnailUrl: "/linistea.jpg",
+    imageUrl: "/images/articles/psihoterapia-spatiu-claritate.jpg",
+    thumbnailUrl: "/psihoterapia-spatiu-claritate.jpg",
     bibliography: [],
     content: `In cultura noastra, mersul la psiholog vine adesea cu reticenta. "Nu sunt nebun", "altii au probleme mai mari", "ma descurc eu", "trece de la sine". Multi dintre noi am crescut cu ideea ca trebuie sa fii puternic, sa duci, sa rezist. Sa nu te plangi. Sa rezolvi singur. Asa ca ajungem sa cerem ajutor tarziu sau deloc.
 
